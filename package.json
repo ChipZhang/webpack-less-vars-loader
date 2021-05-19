@@ -1,0 +1,62 @@
+{
+	"name": "@chipzhang/webpack-less-vars-loader",
+	"version": "0.1.0",
+	"description": "A webpack loader to access LESS variables in JS",
+	"keywords": [
+		"webpack",
+		"loader",
+		"less",
+		"less-vars",
+		"less-variables"
+	],
+	"homepage": "https://github.com/chipzhang/webpack-less-vars-loader#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chipzhang/webpack-less-vars-loader"
+	},
+	"bugs": {
+		"url": "https://github.com/chipzhang/webpack-less-vars-loader/issues"
+	},
+	"author": "Chip Zhang <zccoding@gmail.com> (https://github.com/chipzhang)",
+	"license": "AGPL-3.0-only",
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"main": "index.js",
+	"files": [
+		"*.js",
+		"!.*.js"
+	],
+	"bin": {
+		"less-vars-gen-types": "gen-types.js"
+	},
+	"scripts": {
+		"eslint": "eslint .",
+		"eslint:fix": "eslint --fix .",
+		"prettier": "prettier --write .",
+		"example:gen-types": "node gen-types.js example/src/vars.less",
+		"example:start": "webpack serve --config example/webpack.dev.config.js",
+		"example:build": "webpack --config example/webpack.prod.config.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.14.3",
+		"@chipzhang/eslint-config": "^0.1.0",
+		"@chipzhang/prettier-config": "^0.1.1",
+		"@chipzhang/tsconfig": "^0.1.4",
+		"css-loader": "^5.2.4",
+		"eslint": "^7.26.0",
+		"html-webpack-plugin": "^5.3.1",
+		"less": "^4.1.1",
+		"less-loader": "^9.0.0",
+		"prettier": "^2.3.0",
+		"style-loader": "^2.0.0",
+		"typescript": "^4.2.4",
+		"webpack": "^5.37.1",
+		"webpack-cli": "^4.7.0",
+		"webpack-dev-server": "^3.11.2"
+	},
+	"peerDependencies": {
+		"webpack": ">=4.0.0"
+	}
+}

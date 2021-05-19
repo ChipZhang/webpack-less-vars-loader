@@ -1,0 +1,10 @@
+# ignore dot folders but not dot files
+.*/
+# do not ignore github actions files
+!/.github/
+# ignore node related
+node_modules/
+*.tgz
+
+# project files to ignore
+/example/build/

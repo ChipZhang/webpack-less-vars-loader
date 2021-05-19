@@ -1,0 +1,5 @@
+# ignore dot folders but not dot files
+.*/
+
+# project files to ignore
+/example/build/
