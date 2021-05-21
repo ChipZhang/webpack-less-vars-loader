@@ -1,0 +1,4 @@
+{
+	"extends": "@chipzhang/tsconfig/tsconfig.node.json",
+	"include": ["utils.ts"]
+}
