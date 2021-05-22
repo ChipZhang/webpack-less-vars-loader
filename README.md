@@ -9,7 +9,7 @@ Supports webpack v4 and v5.
 ## Install
 
 ```shell
-npm i webpack-less-vars-loader
+npm i @chipzhang/webpack-less-vars-loader
 ```
 
 Note you should make sure the relevant packages (such as `webpack`, `less`, `less-loader`, `css-loader`, `style-loader`)

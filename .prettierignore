@@ -2,8 +2,6 @@
 .*/
 
 # project files to ignore
-/example/build/
-
-# project files to ignore
 /utils.js
 /utils.d.ts
+/example/build/
