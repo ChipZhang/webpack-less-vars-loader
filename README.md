@@ -1,10 +1,10 @@
 # A webpack loader to access LESS variables in JS
 
-## Features
+## Overview
 
 With this webpack loader, you can access LESS variables in JS files, which run in browsers.
 LESS variable overwritten and [`modifyVars`](https://lesscss.org/usage/#using-less-in-the-browser-modify-variables) also supported.
-Supports webpack v4 and v5.
+Supports webpack v4 or v5. This package has built-in TypesScript support.
 
 ## Install
 

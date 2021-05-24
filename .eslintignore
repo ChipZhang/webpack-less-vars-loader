@@ -1,5 +1,5 @@
 
 # project files to ignore
-/utils.js
-/utils.d.ts
+/*.js
+/*.d.ts
 /example/build/

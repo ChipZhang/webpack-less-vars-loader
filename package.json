@@ -1,6 +1,6 @@
 {
 	"name": "@chipzhang/webpack-less-vars-loader",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "A webpack loader to access LESS variables in JS",
 	"keywords": [
 		"webpack",
@@ -24,11 +24,9 @@
 	},
 	"main": "index.js",
 	"files": [
-		"index.js",
-		"gen-types.js",
-		"parse.js",
-		"utils.js",
-		"utils.d.ts"
+		"*.js",
+		"!.*.js",
+		"*.d.ts"
 	],
 	"bin": {
 		"less-vars-gen-types": "gen-types.js"
@@ -48,12 +46,13 @@
 		"@chipzhang/eslint-config": "^0.1.0",
 		"@chipzhang/prettier-config": "^0.1.1",
 		"@chipzhang/tsconfig": "^0.1.4",
+		"@types/node": "^15.6.0",
 		"css-loader": "^5.2.5",
 		"eslint": "^7.27.0",
 		"html-webpack-plugin": "^5.3.1",
 		"less": "^4.1.1",
 		"less-loader": "^9.0.0",
-		"prettier": "^2.3.0",
+		"prettier": "2.3.0",
 		"style-loader": "^2.0.0",
 		"typescript": "^4.2.4",
 		"webpack": "^5.37.1",
