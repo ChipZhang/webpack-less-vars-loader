@@ -5,6 +5,5 @@
 # ignore node related
 node_modules/
 *.tgz
-
 # project files to ignore
 /example/build/
